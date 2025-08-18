@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Next.js Client Storefront (E-Commerce)
 
-## Getting Started
+A **modern e-commerce storefront** built with **Next.js 15** and **TypeScript**, designed for customers to browse products, explore collections, and complete purchases.  
 
-First, run the development server:
+This project highlights my ability to build **scalable, responsive, and user-friendly e-commerce experiences** using the latest web technologies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🏬 **Storefront**
+  - Browse featured products and collections
+  - Responsive product grid & collection pages
+  - Product detail pages with image galleries
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔍 **Search & Navigation**
+  - Optimized product filtering
+  - Category & collection-based navigation
+  - Smooth UX with **Zustand** state management
 
-## Learn More
+- 👤 **Authentication**
+  - Secure login/register with **Clerk**
+  - User profile & account management
 
-To learn more about Next.js, take a look at the following resources:
+- 🛒 **Shopping Cart**
+  - Add/remove items dynamically
+  - Cart state persisted across sessions
+  - Real-time cart updates
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 💳 **Checkout & Payments**
+  - Seamless checkout experience
+  - Integrated with **Stripe** for secure payments
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 📸 **Media & Galleries**
+  - Product images optimized with **Next Cloudinary**
+  - Carousels with **Embla Carousel** / **React Multi Carousel**
 
-## Deploy on Vercel
+- 🎨 **UI/UX**
+  - Styled with **TailwindCSS**
+  - Modern components with **Radix UI + Lucide Icons**
+  - Smooth animations with **Framer Motion** & **tw-animate-css**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Tech Stack
+
+- **Framework**: Next.js 15 (App Router, TypeScript, Turbopack)  
+- **Database**: MongoDB + Mongoose  
+- **Auth**: Clerk  
+- **Payments**: Stripe  
+- **UI**: TailwindCSS, Radix UI, ShadCN components, Lucide Icons  
+- **State Management**: Zustand  
+- **Media**: Next Cloudinary, React Multi Carousel, Embla Carousel  
+
+---
+
