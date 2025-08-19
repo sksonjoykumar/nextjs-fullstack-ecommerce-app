@@ -41,13 +41,6 @@ export default function TopBar() {
 
       {/* Responsive Menu */}
       <div className="relative flex items-center gap-3 sm:hidden">
-        {/* <button type="button" onClick={() => setDropDownMenu(!dropDownMenu)}>
-          {dropDownMenu ? (
-            <X className="mb-1 cursor-pointer" size={27} />
-          ) : (
-            <Menu className="mb-1 cursor-pointer" size={27} />
-          )}
-        </button> */}
         <button type="button" onClick={() => setDropDownMenu(!dropDownMenu)}>
           <Menu className="mb-1 cursor-pointer" size={27} />
         </button>
