@@ -2,9 +2,9 @@ import { connectToDB } from "@/lib/mongodb";
 import Customer from "@/models/Customer";
 import Order from "@/models/Order";
 import { format } from "date-fns";
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
-export const GET = async (req: NextRequest) => {
+export const GET = async () => {
   try {
     await connectToDB();
 
